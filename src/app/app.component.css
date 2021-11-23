@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#headerContainer {
+    background-color: red;
+    color:white;
+    font-style: italic;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    width: 9%;
+    height: 40px;
+    margin: 2%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    background-color: darkcyan;
+    border-radius: 16px;
+    outline: none;
+}
+button:hover{
+    background-color:grey;
+    box-shadow:7px 5px ;
+}
+.inputButton {
+    width: 20%;
+    height: 40px;
+    margin: 2%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    border-radius: 16px;
+    color: black;
+    outline: none;
+}
+#newFood {
+    background-color: red;
+}
+.newFoodItems {
+    display: flex;
+}
+.inputValues {
+    width: 30%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 16px;
+    outline: none;
+}
+.foodItems {
+    background-color: grey;
+    width: 40%;
+    border-radius: 16px;
+    
+}
+.output{
+    width: 30%;
+    height:auto;
+    background-color: grey;
+    /* margin: 20px; */
+    /* display : grid;
+    grid-template-columns: repeat(3, 1fr); */
+   
+}
+#allFoods {
+    display: flex;
+    margin: 2%;
+    padding: 2%;
+}
+.display {
+    width: 80%;
+    height: 80%;
+    border-radius: 12px;
+    background-color:none;
+    margin:20px;
+    padding: 20px;
+    background-image: url(../assets/calorie-density-1296x728-feature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#sumbitButton {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.imgaeView {
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+.foodDetails {
+    margin: 2%;
+}
+.addButton {
+    color:red;
+}
+.addbuttonClass {
+    border-radius: 12px;
+    width: 35%;
+    height: 20%;
+
+}
+#add {
+    background-color: red;
+}
